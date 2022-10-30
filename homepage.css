@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+  }
+  
+      /* Add a black background color to the top navigation */
+      .topnav {
+          background-color: rgb(97, 14, 164);
+          overflow: hidden;
+          padding: 10px;
+          display: flex;
+          font-size: 3rem;
+          justify-content: center;
+      }
+      
+      /* style the links inside the navigation bar */
+      .topnav a {
+          float: left;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+      }
+      
+      /* change the color of links on hover */
+      .topnav a:hover {
+          float: #ddd;
+          color: rgb(64, 7, 170);
+      
+      }
+      
+      /* Add a color to the active/current link */
+      .topnav a.active {
+          background-color: #a35eaf;
+          color: white;
+      }
+  
+   
+      
+      /* The hero section*/
+      #hero{
+        height: 100vh;
+        width: 100% ;
+        padding-top: 10rem;
+      }
+
+      #hero .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: aliceblue;
+        width: 95%;
+        margin: 0 auto;
+        max-width: 1000px;
+        height: 160%;
+      }
+
+      #hero .container .left{
+        flex: 6;
+      
+      }
+      
+      #hero .container .right{
+        flex: 8;
+      }
+
+      #hero .left .subheading{
+        font-size: 1.8rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: rgb(97, 14, 164);
+      }
+      #hero .left .heading{
+        font-size: 6rem;
+        font-weight: 900;
+      }
+
+      #hero .left .button{
+        margin-top: 3rem; 
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 2rem;
+     }
+
+    .button{
+        display: inline-block;
+        background: rgb(97, 14, 164);
+        color: white;
+        font-size: 1.8rem;
+        padding: 0.6em 1.6em;
+        border-radius: 50px;
+     }
+
+     #hero .right{
+        text-align: right;
+     }
+
+     #hero .right img{
+        width: 100%;
+        max-width: 450px;
+        height: 600px;
+        object-fit: cover;
+        object-position: 50% 30% ;
+        border-radius: 12px;
+     }
+
+    @media only screen and (max-width:760px) {
+        html{
+            font-size: 6px;
+        }
+        
+     }
+
+      img{
+        width: 100%;
+        height: 100%;
+      }
+
+     a{
+        color: white;
+        text-decoration: none;
+        text-align: center;
+     }
+
+     h4{
+        font-size: 1.5em;
+     }
+
+     h1{
+        font-size: 2rem;
+        text-align: center;
+     }
+
+
+
+

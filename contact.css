@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+/* style inputs */
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: ipx solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background-color: #d60d0d;
+}
+
+/* Style the container/contact section */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+

@@ -1,0 +1,67 @@
+/* Add padding to containers */
+.container{
+    padding: 20px;
+    background-color: rgb(32, 32, 89);
+    color: white;
+}
+/* Full-width input fields */
+input[type=text], input[type=password],  input[type=date], input[type=email], input[type=tel]
+{width: 600%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background-color: rgb(7, 7, 35);
+    background: #f1f1f1;
+    outline: none;
+    border-radius: 4px;
+
+}
+/* set a style for the submit/registration button */
+.registerbtn{
+    background-color: rgb(174, 174, 45);
+    color:white;
+    padding: 16px 20px ;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    margin: auto;
+    border-radius: 24px;
+    margin: auto;
+    font-size:large; 
+    display:inline-block; 
+    font-size: large;
+    text-decoration: none;
+ 
+}
+/* set a background color and center the text of the "Login" section */
+    .login{
+    padding: 16px;
+        text-align: left;
+        text-decoration: none;
+    }
+#tel{
+    padding: 15px;
+    width: 600%;
+    border: none;
+    background-color: rgb(7, 7, 35);
+    background: #f1f1f1;
+    border-radius: 4px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+}
+.select{
+    padding: 15px;
+    width: 615%;
+    border: none;
+    background-color: rgb(7, 7, 35);
+    background: #f1f1f1;
+    border-radius: 4px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+}
+
+.register{
+    text-decoration: none;
+}

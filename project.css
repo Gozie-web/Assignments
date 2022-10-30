@@ -1,0 +1,42 @@
+
+#projects > h2{
+    text-align: center;
+  }
+  
+  .wrapper {
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .projects-container {
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    justify-content: space-evenly;
+  }
+  
+  .project-tile {
+    background-color: #1b8bbb;
+    border: 1px solid #142039;
+    border-radius: 4px;
+  }
+  
+  #profile {
+    background-color: #3182a5;
+    padding: 20px;
+    max-height: 400px;
+  }
+  
+  #profile > h2 {
+    text-align: center;
+    margin-top: 0px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .projects-container {
+      display: grid;
+      grid-template-columns: 80%;
+      grid-gap: 50px;
+    }
+  }
