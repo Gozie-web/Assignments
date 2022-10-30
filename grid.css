@@ -1,0 +1,131 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family:'Big shoulders Display';
+    font-size: 15px;
+    line-height: 1.5;
+    color: #333;
+    background: white;
+  }
+  
+  
+  .grid-container {
+    max-width: 1440px;
+    min-width: 375px;
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  
+  .grid-container div {
+    grid: 1;
+    color: #fff;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    padding: 20px 25px;
+    height:410px;
+    text-align: left;
+    margin: auto;
+  }
+  h1{
+    font-size: 25px;
+    line-height: 60px;
+    letter-spacing: 0px;
+    
+  }
+  p{
+    font-size: 13px;
+    padding: 10px 0px 30px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+     color: hsla(0,0,100%,0.75%);
+  }
+  
+  
+  .item1{
+    background-color: hsl(31,77%,52%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    grid-row:1/rowspan 3
+  
+  }
+  
+  .item2{
+    background-color: hsl(184,100%,22%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .item3{
+    background-color: hsl(179,100%,13%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .car{
+    font-size: 20px;
+    display: block;
+    margin: 15px 0px;
+    width: 60px;
+    height:50px;
+    text-align: left;
+    color: hsl(0,0,0%,95%);
+  }
+  
+  button {
+    padding: 1.25em 3em;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    font-style: bold;
+     color: hsl(0,0,0%,95%);
+  }
+  .item1 button{
+    background-color: #fff;
+    color: #e28525;
+  }
+  
+  .item2 button{
+    background-color: #fff;
+    color: #016972;
+  }
+  
+  .item3 button{
+    background-color: #fff;
+    color: #00403f;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .grid-container {
+     grid-template-columns: 30%;
+      padding-top: 20px;
+      text-align: center;
+      grid-template-rows: 600px;
+      
+    }
+  
+    .item1, .item2, .item3 {
+      display: block;
+      text-align: center;
+    }
+    body {
+      height: 100vh;
+      width: 100%;
+    }
+  }
